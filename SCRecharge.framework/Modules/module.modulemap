@@ -1,6 +1,0 @@
-framework module SCRecharge {
-  umbrella header "SCRecharge.h"
-
-  export *
-  module * { export * }
-}

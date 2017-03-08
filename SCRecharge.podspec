@@ -41,9 +41,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/o2ohuaat/SCRecharge.git", :tag => "#{s.version}" }
 
-  s.requires_arc = true
+  s.source_files = "SCRecharge.framework/Headers/**/*.h"
 
-  s.resources    = 'AlipaySDK.bundle'
+  s.requires_arc = true
   
   s.vendored_frameworks = 'SCRecharge.framework'
   
