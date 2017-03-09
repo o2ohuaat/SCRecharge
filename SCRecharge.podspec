@@ -41,13 +41,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/o2ohuaat/SCRecharge.git", :tag => "#{s.version}" }
 
-  s.source_files = "SCRecharge.framework/Headers/**/*.h"
-
   s.requires_arc = true
   
   s.vendored_frameworks = 'SCRecharge.framework'
-  
-  s.public_header_files = 'SCRecharge.framework/Headers/**/*.h'
   
   s.frameworks = 'JavaScriptCore','SystemConfiguration', 'Security', 'UIKit', 'Foundation', 'CFNetwork'
 
